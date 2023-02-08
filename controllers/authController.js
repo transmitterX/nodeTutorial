@@ -38,7 +38,7 @@ const handleLogin = async (req, res) => {
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
       sameSite: "None",
-      //secure: true, // important for chrome, testing with thunderclient comment!
+      secure: true, // important for chrome, testing with thunderclient comment!
       maxAge: 24 * 60 * 60 * 1000,
     })
     res.json({ accessToken })
