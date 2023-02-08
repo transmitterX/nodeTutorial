@@ -1,0 +1,4 @@
+20230105	22:17:57	ff069ea4-0d98-4da8-a90b-5c1cadb9cbb0	Error: Not allowed by CORS
+20230206	13:48:47	042ba758-8f1c-4bb0-912a-aca812995ad5	ReferenceError: json is not defined
+20230206	19:35:52	ef6a6037-3091-401e-931d-24845cacd422	ReferenceError: whitelist is not defined
+20230208	09:17:22	654b280c-19eb-4be1-88b4-49d201e35ffd	TypeError: Cannot read property 'startsWith' of undefined
